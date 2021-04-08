@@ -1,6 +1,6 @@
 <template>
   <!-- この中は一つの要素でないといけない -->
-  <div>
+  <div >
     <p>いいね{{ number }}</p>
     <button @click="increment">+1</button>
   </div>
@@ -22,5 +22,10 @@ export default {
 };
 </script>
 
-<style>
+
+<style scoped>
+/* スコープつきCSSはscopedをstyleタグへつける */
+  div{
+    border: solid  1px red;
+  }
 </style>

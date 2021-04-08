@@ -18,3 +18,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  /*  */
+  div{
+    border: blue solid 1px;
+  }
+</style>
